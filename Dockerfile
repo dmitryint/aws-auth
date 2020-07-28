@@ -8,7 +8,7 @@ RUN apk add --update \
     git \
   && pip install awscli
 
-WORKDIR /go/src/github.com/keikoproj/aws-auth
+WORKDIR /go/src/github.com/dmitryint/aws-auth
 COPY . .
 RUN git rev-parse HEAD
 RUN date +%FT%T%z

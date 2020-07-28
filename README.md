@@ -17,7 +17,7 @@
 ## Install
 
 ```text
-$ go get github.com/keikoproj/aws-auth
+$ go get github.com/dmitryint/aws-auth
 $
 ```
 
@@ -125,7 +125,7 @@ Retries are configurable using the following flags
 package main
 
 import (
-    awsauth "github.com/keikoproj/aws-auth/pkg/mapper"
+    awsauth "github.com/dmitryint/aws-auth/pkg/mapper"
 )
 
 func someFunc(client kubernetes.Interface) error {
