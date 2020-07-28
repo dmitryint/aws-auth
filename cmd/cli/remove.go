@@ -19,7 +19,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/keikoproj/aws-auth/pkg/mapper"
+	"github.com/dmitryint/aws-auth/pkg/mapper"
 	"github.com/spf13/cobra"
 )
 
